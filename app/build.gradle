@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
@@ -31,4 +30,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
+
 }
+
+apply plugin: 'com.google.gms.google-services'
+
+// 312875386025178
+// 74e952d893043e0b06dd891aced7643c
+// https://social-login-8250c.firebaseapp.com/__/auth/handler
