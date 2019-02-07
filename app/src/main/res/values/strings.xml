@@ -2,4 +2,5 @@
     <string name="app_name">social-login-example</string>
     <string name="facebook_app_id">312875386025178</string>
     <string name="fb_login_protocol_scheme">fb312875386025178</string>
+    <string name="google_web_client_id">598916902703-u0bal7o5hl0frm4udph1nbtc3mklia1k.apps.googleusercontent.com</string>
 </resources>

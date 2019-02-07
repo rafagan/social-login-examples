@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun updateUI(user: FirebaseUser?) {
+        if(user == null) return;
         Toast.makeText(
             this@MainActivity, "Funcionou", Toast.LENGTH_SHORT
         ).show()
